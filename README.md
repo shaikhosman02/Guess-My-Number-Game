@@ -34,7 +34,7 @@ This project is built using the following technologies:
 
 ## Demo
 
-You can try the game live by visiting the following link: [Guess My Number Demo](https://shaikhosman02.github.io/Guess-My-Number/)
+You can try the game live by visiting the following link: [Guess My Number Demo](https://shaikhosman02.github.io/Guess-My-Number-Game/)
 
 ## Contributions
 
