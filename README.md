@@ -30,7 +30,7 @@ This project is built using the following technologies:
 
 ## Screenshots
 
-![Game Screenshot](screenshots/game-screenshot.png)
+![Game Screenshot](screenshots/Screenshot(01).png) ![Game Screenshot](screenshots/Screenshot(02).png) ![Game Screenshot](screenshots/Screenshot(03).png) ![Game Screenshot](screenshots/Screenshot(04).png)
 
 ## Demo
 
