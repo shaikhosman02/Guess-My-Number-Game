@@ -13,6 +13,7 @@ const onCheck = function () {
         displayMessage("Enter a valid number! 😒");
     }
     else if (guess === secretNumber) {
+        document.querySelector('.guess').disabled='true';
         document.querySelector('body').style.backgroundColor = "green";
         document.querySelector('.number').style.width = '30rem';
         document.querySelector('.number').textContent = secretNumber;
@@ -29,6 +30,7 @@ const onCheck = function () {
             score--;
             document.querySelector('.score').textContent = score;
         } else {
+            document.querySelector('.guess').disabled='true';
             document.querySelector('.score').textContent = 0;
             displayMessage("☹️ You Lost");
             document.querySelector('body').style.backgroundColor = "red";
@@ -39,6 +41,7 @@ const onCheck = function () {
             score--;
             document.querySelector('.score').textContent = score;
         } else {
+            document.querySelector('.guess').disabled='true';
             document.querySelector('.score').textContent = 0;
             displayMessage("☹️ You Lost");
             document.querySelector('body').style.backgroundColor = "red";
@@ -48,6 +51,8 @@ const onCheck = function () {
 
 document.querySelector('.check').addEventListener('click', onCheck);
 document.querySelector('.again').addEventListener('click', function () {
+    document.querySelector('.guess').disabled=false;
+    document.querySelector('.check').disabled=false;
     score = 20;
     secretNumber = Math.trunc(Math.random() * 20) + 1;
     displayMessage("Start guessing...");
