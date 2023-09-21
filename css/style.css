@@ -70,7 +70,6 @@ h1 {
   left: 50%;
   transform: translate(-50%, 50%);
 }
-
 .between {
   font-size: 1.4rem;
   position: absolute;
@@ -135,17 +134,17 @@ h1 {
 @media (max-width: 570px) {
   .label-score,
   .label-highscore,
-  .message{
-    font-size: 1.8rem
+  .message {
+    font-size: 1.8rem;
   }
-  .check{
+  .check {
     font-size: 1.3rem;
     padding: 1.6rem 2.6rem;
   }
-  .guess{
+  .guess {
     margin-bottom: 1.9rem;
     padding: 1.8rem;
-  width: 18rem;
+    width: 18rem;
   }
   h1 {
     font-size: 2.5rem;
@@ -154,20 +153,20 @@ h1 {
 @media (max-width: 467px) {
   .label-score,
   .label-highscore,
-  .message{
-    font-size: 1.1rem
+  .message {
+    font-size: 1.1rem;
   }
-  .message{
+  .message {
     margin-bottom: 6rem;
-    font-size: 1.rem;
+    font-size: 1rem;
   }
-  .check{
+  .check {
     font-size: 1rem;
     padding: 1.3rem 2.3rem;
   }
-  .guess{
+  .guess {
     padding: 1.5rem;
-  width: 14rem;
+    width: 14rem;
   }
   h1 {
     font-size: 2rem;
@@ -196,7 +195,7 @@ h1 {
   }
 }
 @media (max-width: 320px) {
-  .check{
+  .check {
     margin-bottom: 4rem;
   }
   h1 {
@@ -214,13 +213,13 @@ h1 {
     width: 9rem;
     padding: 2.2rem 0rem;
   }
-  .left{
+  .left {
     position: relative;
     left: 25%;
     bottom: 10%;
     width: max-content;
   }
-  .right{
+  .right {
     position: relative;
     right: 25%;
     top: 35%;
@@ -228,33 +227,49 @@ h1 {
   }
   .label-score,
   .label-highscore,
-  .message{
-    font-size: 0.9rem
+  .message {
+    font-size: 0.9rem;
   }
-  .message{
-    margin-bottom: 5rem ;
+  .message {
+    margin-bottom: 5rem;
   }
 
-  .label-highscore{
+  .label-highscore {
     margin-bottom: 10rem;
   }
-  .guess{
+  .guess {
     padding: 1.2rem;
-  width: 11rem;
+    width: 11rem;
   }
 }
-@media(max-width: 170px){
-  .guess{
+@media (max-width: 170px) {
+  .guess {
     padding: 0.6rem;
-  width: 8rem;
+    width: 8rem;
   }
-  .check{
+  .check {
     font-size: 0.6rem;
     padding: 1rem 2rem;
   }
   .label-score,
   .label-highscore,
-  .message{
-    font-size: 0.7rem
+  .message {
+    font-size: 0.7rem;
   }
 }
+/* .message,
+.label-highscore,
+.label-score{
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-timing-function: ease-in
+}
+
+@keyframes slidein{
+  from{
+    margin-left: 30%;
+  }
+  to{
+    margin-left: 0%;
+  }
+} */
