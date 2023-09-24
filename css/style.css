@@ -257,19 +257,40 @@ h1 {
     font-size: 0.7rem;
   }
 }
-/* .message,
-.label-highscore,
-.label-score{
-  animation-duration: 0.5s;
-  animation-name: slidein;
-  animation-timing-function: ease-in
-}
 
-@keyframes slidein{
-  from{
-    margin-left: 30%;
+@media (max-width: 916px) and (min-width: 426px) {
+  html {
+    font-size: 55.5%;
   }
-  to{
-    margin-left: 0%;
+  header {
+    height: 64vh;
   }
-} */
+  h1 {
+    top: 55%;
+  }
+  main {
+    height: 98vh;
+  }
+}
+@media (max-width: 916px) and (min-height: 900px) {
+  header {
+    height: 35vh;
+  }
+  h1 {
+    top: 55%;
+  }
+  main {
+    height: 57vh;
+  }
+}
+@media (min-width: 510px) and (max-width: 540px) {
+  header {
+    height: 35vh;
+  }
+  h1 {
+    top: 55%;
+  }
+  main {
+    height: 57vh;
+  }
+}
