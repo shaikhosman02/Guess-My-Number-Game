@@ -23,7 +23,7 @@ header {
   display: flex;
   flex-grow: initial;
   position: relative;
-  height: 35vh;
+  height: 38vh;
   border-bottom: 7px solid #eee;
 }
 
@@ -262,10 +262,10 @@ h1 {
     font-size: 60.5%;
   }
   header{
-    height: 60vh;
+    height: 80vh;
   }
   main{
-    height: 100vh;
+    height: 120vh;
   }
 }
 @media (orientation: landscape) and (max-width:741px){
